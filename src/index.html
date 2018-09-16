@@ -16,6 +16,15 @@
         <![endif]-->
 
         <script src="js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js"></script>
+        <style>
+
+            @media (min-width: 992px) {
+            /* line 3, ../sass/partials/_author.sass 
+            FUll width
+            */
+            .container{ max-width:1640px !important;}
+            }            
+        </style>
     </head>
     <body>
         <!-- if the user has javascript disabled they can still use the menu -->
@@ -30,131 +39,116 @@
             </div>
         </noscript>
         <!-- end no script -->
-
-        <main class="container left-container">
+        <main> 
             <div class="row">
+                <div class="col-lg-3 col-xs-12">
+                        <div id="menu-target">
+                                <ul>
+                                    <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+                                    <li><i class="fa fa-user"></i><a href="author.html">David J</a></li>
+                                    <li><i class="fa fa-anchor"></i><a href="about.html">About</a></li>
+                                    <li><i class="fa fa-paper-plane"></i><a href="contact.html">Contact</a></li>
+                                </ul>
+                                <hr>
+                            </div>
+            
+                            <section class="sidebar">
+            
+                                <span class="menu-trigger animated fadeInDown">
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                </span>
+                                <div style="padding-top:45px;padding-left:10px;padding-right:10px;"><img src="img/default-sidebar-small.jpg"></img></div>
+                                <div class="site-info">
+                                    <div class="primary-info" style="margin-top:-25px">
+                                        <h2>Welcome to Recognitiva</h2>
+                                        <p>As an AWS Certified Solutions Architect – Associate I know that there is not enough time to keep up with rapid evolving technology that we desire to learn, especially if you are a busy person like me. If you have all the time, then its time to get a life! I can't stay behind a screen all day, all night or pay hundreds to attend classroom training. There has to be a better way to take advantage of my time so I decided this is the way and the way to develop my skills is to teach what I learn and Learn and teach.</p>
+                                        <p>A <a target="_blank" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/acp.3410?campaign=wolearlyview&">new study</a> in Applied Cognitive Psychology researchers led by Aloysius Wei Lun Koh set out to test their theory that teaching improves the teacher’s learning because it compels the teacher to retrieve what they’ve previously studied.</p>
+                                        <p>Most of my teaching will be with AWS Rekognition showing recognition and analysis for facial, video and text. I been working with AWS since 2013, so yes I am biased.</p>
+                                    </div>
+                                </div>
+                            </section><!-- end sidebar -->                
+                        </div>
+                <div class="col-lg-5 col-xs-12">
+                    <div class="ml-auto single-content-sidebar-area">
+                        <div class="sub-nav">
+                                <a href="#" class="select-posts active">Categories</a>
+                        </div>
+        
+                        <div class="home-page-posts animated fadeIn ">
 
-                <div id="menu-target">
-                    <ul>
-                        <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
-                        <li><i class="fa fa-user"></i><a href="author.html">David J</a></li>
-                        <li><i class="fa fa-anchor"></i><a href="about.html">About</a></li>
-                        <li><i class="fa fa-paper-plane"></i><a href="contact.html">Contact</a></li>
-                    </ul>
-                    <hr>
+                            <article class="post">
+                                <div class="post-preview col-12  no-gutter">
+                                    <h2><a href="sitestructure/category/tools.html">Tools</a></h2>
+                                    <p>
+                                        Get started by configuring your environment with windows, linux or AWS Cloud9.
+                                        <br>
+                                        <span class="text-danger"><a href="sitestructure/category/tools.html">Read More</a></span>
+                                    </p> 
+                                </div>                         
+                            </article>
+
+                            <article class="post">
+                                <div class="post-preview col-12 no-gutter">
+                                    <h2><a href="sitestructure/category/interesting-reads.html">Interesting Reads</a></h2>
+                                    <p>
+                                        Read interesting articles on artificial intelligence such as facial recognition and technology related to cloud provider Amazon Web Services.
+                                        <br>
+                                        <span class="text-danger"><a href="sitestructure/category/interesting-reads.html">Read More</a></span>
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="post">
+                                <div class="post-preview col-12 no-gutter">
+                                    <h2><a href="sitestructure/category/awscertifications.html">AWS Certifications</a></h2>
+                                    <p>
+                                        Are AWS Certifications Worth it? Should you invest your time and money to achive a piece of paper that some say don't make a difference in advancing?
+                                        I provide my thoughts, preparation guidance and techniques that were effective for me.
+                                        <br>
+                                        <span class="text-danger"><a href="sitestructure/category/awscertifications.html">Read More</a></span>
+                                    </p>
+                                </div>
+                            </article>
+                        </div><!-- Home page posts -->
+                        <footer class="split-footer">                        
+                            <a href="about.html">About Author</a>
+                            <!-- <i class="link-spacer"></i>
+                            <a href="author.html">Author</a> -->
+                        </footer>
+                    </div>                    
                 </div>
-
-                <section class="sidebar col-lg-5 col-12">
-
-                    <span class="menu-trigger animated fadeInDown">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </span>
-                    <div style="padding-top:45px;padding-left:10px;padding-right:10px;"><img src="img/default-sidebar-small.jpg"></img></div>
-                    <div class="site-info">
-                        <div class="primary-info" style="margin-top:-25px">
-                            <h2>Welcome to Recognitiva</h2>
-                            <p>As an AWS Certified Solutions Architect – Associate I know that there is not enough time to keep up with rapid evolving technology that we desire to learn, especially if you are a busy person like me. If you have all the time, then its time to get a life! I can't stay behind a screen all day, all night or pay hundreds to attend classroom training. There has to be a better way to take advantage of my time so I decided this is the way and the way to develop my skills is to teach what I learn and Learn and teach.</p>
-                            <p>A <a target="_blank" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/acp.3410?campaign=wolearlyview&">new study</a> in Applied Cognitive Psychology researchers led by Aloysius Wei Lun Koh set out to test their theory that teaching improves the teacher’s learning because it compels the teacher to retrieve what they’ve previously studied.</p>
-                            <p>Most of my teaching will be with AWS Rekognition showing recognition and analysis for facial, video and text. I been working with AWS since 2013, so yes I am biased.</p>
-                        </div>
-                        <!-- <div class="secondary-info">
-                            <p>
-                                <img src="img/AWS_Certified_Logo_SAA_294x230_Color.png"/>
-                                <a class="btn btn-primary" href="#"><i class="fa fa-user-plus"></i>Join Our Newsletter</a>
-                            </p> -->
-                        </div>
-                    </div>
-                </section><!-- end sidebar -->
-
-                <section class="col-lg-7 col-12 ml-auto main-content">
-
-                    <div class="sub-nav">
-                        <a href="#" class="select-posts active">Categories</a>
-                    </div>
-
-                    <div class="home-page-posts animated fadeIn ">
-
-                        <article class="post">
-                            <div class="post-preview col-12  no-gutter">
-                                <h2><a href="sitestructure/category/tools.html">Tools</a></h2>
-                                <p>
-                                    Get started by configuring your environment with windows, linux or AWS Cloud9.
-                                    <br>
-                                    <span class="text-danger"><a href="sitestructure/category/tools.html">Read More</a></span>
-                                </p> 
-                            </div>                         
-                        </article>
-
-                        <article class="post">
-                            <div class="post-preview col-12 no-gutter">
-                                <h2><a href="post-sidebar.html">Interesting Reads</a></h2>
-                                <p>
-                                    Read interesting articles on artificial intelligence such as facial recognition and technology related to cloud provider Amazon Web Services.
-                                    <br>
-                                    <span class="text-danger"><a href="sitestructure/category/tools.html">Read More</a></span>
-                                </p>
+                <div class="col-lg-3 col-xs-12">
+                        <div class="ml-auto single-content-sidebar-area">               
+                
+                                <div class="sub-nav">
+                                        <a href="#" class="select-posts active">Good Posts</a>
+                                    </div>
+        
+                            <div class="similar-post">
+                                <a href="sitestructure/category/awscertifications/Thoughts on AWS Certification.html"><h3>Thoughts on AWS Certification</h3></a>
+                                <h4><i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 5 minute read</h4>
                             </div>
-                        </article>
-                        <article class="post">
-                            <div class="post-preview col-12 no-gutter">
-                                <h2><a href="sitestructure/category/awscertifications.html">AWS Certifications</a></h2>
-                                <p>
-                                    Are AWS Certifications Worth it? Should you invest your time and money to achive a piece of paper that some say don't make a difference in advancing?
-                                    I provide my thoughts, preparation guidance and techniques that were effective for me.
-                                    <br>
-                                    <span class="text-danger"><a href="sitestructure/category/awscertifications.html">Read More</a></span>
-                                </p>
+        
+                            <div class="similar-post">
+                                <a href="sitestructure/category/awscertifications/AWS Certified Developer Associate.html"><h3>AWS Certified Developer – Associate</h3></a>
+                                <h4><i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 5 minute read</h4>
                             </div>
-                        </article>
-                        <!-- <article class="post">
-                            <div class="post-preview col-10 no-gutter">
-                                <h2><a href="post.html">Its not always that simple</a></h2>
-                                <p>How many times should you ask the same questions. </p>
-
-                                <p class="meta">
-                                    <a href="author.html">Tim Leen</a> in <a href="category.html">Open Roads</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 12 minute read
-                                </p>
+        
+                            <div class="similar-post">
+                                <a href="sitestructure/category/awscertifications/AWS Certified Solutions Architect Associate.html"><h3>AWS Certified Solutions Architect – Associate</h3></a>
+                                <h4><i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 5 minute read</h4>
                             </div>
-
-                            <div class=" col-2 no-gutter">
-                                <img src="img/profile-3.jpg" class="user-icon"  alt="user-image">
+        
+                            <div class="similar-post">
+                                <a href="sitestructure/category/awscertifications/AWS Certification Study Strategies.html"><h3>AWS Certification Study Strategies</h3></a>
+                                <h4><i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 5 minute read</h4>
                             </div>
-                        </article> -->
-                    </div><!-- Home page posts -->
-                    <footer class="split-footer">                        
-                        <a href="about.html">About</a>
-                        <i class="link-spacer"></i>
-                        <a href="author.html">Author</a>
-                    </footer>
-
-                </section><!-- main content -->
-
-                <div class="col-12 col-lg-3 ml-auto single-content-sidebar-area">
-    
-                        <h2 class="favorites">Similar Posts</h2>
-    
-                        <div class="similar-post">
-                            <a href="post.html"><h3>Leave the City for a Life on the Road</h3></a>
-                        </div>
-    
-                        <div class="similar-post">
-                            <a href="post.html"><h3>The Best Story Never Told</h3></a>
-                        </div>
-    
-                        <div class="similar-post">
-                            <a href="post.html"><h3>Stop Thinking and Start Doing</h3></a>
-                        </div>
-    
-                        <div class="similar-post">
-                            <a href="post.html"><h3>You Don't Have To Be Great To Get Started</h3></a>
-                        </div>
-    
-                    </div>                
-            </div> <!--/row -->
-
-        </main> <!-- /container -->
+        
+                        </div>                                          
+                </div>
+            </div>
+        </main>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
